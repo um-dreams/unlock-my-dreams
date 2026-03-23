@@ -21,6 +21,26 @@ Three core products: AI Business Planner & Checklist, AI Website Builder (full m
 
 - `specs/` — Business plan, PRDs, and feature specifications
 
+## Git Strategy
+
+### Branching Model
+```
+feat/* → dev → staging → main (production)
+```
+- **feat/***: All new work starts here. Branch from `dev`, name as `feat/<short-description>`.
+- **dev**: Integration branch. All feature branches merge here first.
+- **staging**: Pre-production. Merges from `dev` for QA/testing before production.
+- **main**: Production. Only promoted from `staging` after verification.
+
+### Commit & Push Rules
+- Commit and push after every completed task — do not batch multiple tasks into one commit.
+- Do NOT add Claude or any AI co-author lines to commits.
+- Write concise commit messages focused on the "why", not the "what".
+
+### PR Flow
+- Feature PRs target `dev`.
+- Promotion PRs: `dev → staging`, `staging → main`.
+
 ## Key Specs
 
 - `specs/BUSINESS_PLAN.md` — Full business plan with pricing, MVP timeline, competitive analysis
