@@ -245,6 +245,16 @@ For states where portal automation is necessary:
 
 ---
 
+---
+
+## Research Phase IP Protection
+
+Even during the planning/research phase, visiting all 51 state SOS portals in quick succession can trigger bot detection. See `specs/LLC_REGISTRATION_PLANNING_ROADMAP.md` — "Research IP Protection Strategy" section for the full methodology.
+
+**Summary**: Use a 4-layer approach — third-party aggregator sites first, AI web search second, direct SOS contact third, VPN spot-checks last. Never hit state portals directly from our own infrastructure during research.
+
+---
+
 ## Key Takeaway
 
 **Don't scrape state portals from day one.** The path to avoiding IP blocks is:
