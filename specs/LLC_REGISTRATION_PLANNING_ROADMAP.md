@@ -8,6 +8,118 @@ Related spec: `specs/LLC_REGISTRATION_PLAN.md` (technical architecture draft)
 
 ---
 
+## Research IP Protection Strategy
+
+Before any research begins, we need a methodology that protects our IP address from being flagged or banned by state SOS systems. This applies to the entire planning phase — even passive browsing of 51 state portals in quick succession can look like reconnaissance to WAFs and bot-detection systems.
+
+### Principle: Never Touch State Portals Directly During Research
+
+The research phase should use **zero direct requests** to state SOS websites from our own infrastructure. Every piece of data we need can be gathered through indirect channels.
+
+### Layer 1: Third-Party Aggregator Sources (Primary)
+
+Most state filing data (fees, forms, processing times, required fields) is already compiled by established services. Use these first — they're public, frequently updated, and involve zero state portal interaction:
+
+| Source | What It Provides | URL Pattern |
+|--------|-----------------|-------------|
+| **Northwest Registered Agent** state guides | Fees, forms, step-by-step filing, requirements per state | Public website |
+| **Nolo.com** LLC guides | Legal requirements, state comparisons, operating agreement rules | Public website |
+| **Incfile / ZenBusiness** state pages | Fee breakdowns, processing times, expedited options | Public website |
+| **NASS (Nat'l Assoc. of SOS)** | Official directory of all SOS offices, links, contact info | Public website |
+| **Wikipedia** state SOS articles | Portal names, basic filing info, history | Public website |
+| **Harborcompliance.com** | Annual report requirements, compliance calendars per state | Public website |
+
+**Action**: Use web search and these aggregators to fill 80-90% of the STATE_MATRIX before ever considering a state portal visit.
+
+### Layer 2: AI-Assisted Web Research (Secondary)
+
+Use AI tools with built-in web search to gather data without our IP making direct requests:
+
+- **Gemini (via MCP)** — has web search capability, 1M context. Can research multiple states per query.
+- **General web search** — search for specific data points rather than browsing portals directly.
+
+Example queries:
+- `"California LLC filing fee 2026 bizfileOnline"`
+- `"Texas SOSDirect LLC articles of organization requirements"`
+- `"which US states have SOS API for business filing"`
+
+The AI tool's infrastructure makes the web requests, not our IP.
+
+### Layer 3: VPN/Proxy for Spot-Check Verification (Last Resort)
+
+For the small number of data points that can't be found through aggregators or web search (e.g., verifying a specific portal's CAPTCHA type, checking if a state added an API since last documented):
+
+- [ ] **Use a commercial VPN** (Mullvad, ProtonVPN, or similar) — switch to an exit node in the target state
+- [ ] **One state per session** — don't visit 10 state portals in one sitting
+- [ ] **Space visits** — max 2-3 state portal visits per day via VPN
+- [ ] **Use a clean browser profile** — private/incognito window, clear cookies between states
+- [ ] **Behave like a human** — browse naturally, don't use dev tools or inspect network traffic while on the portal
+- [ ] **Never run scripts** against state portals during research — manual browsing only
+
+### Layer 4: FOIA / Direct Contact (For Sensitive Questions)
+
+For questions about API access, bulk filer programs, or registered agent portal availability:
+
+- [ ] **Email the state SOS office directly** — ask about electronic filing options, API programs, bulk filer accounts
+- [ ] **Call the SOS business filing division** — many states have helpful staff who will explain their electronic filing options
+- [ ] **FOIA requests** — for states where API/portal documentation isn't public, a FOIA request can surface technical specs
+
+This approach is slower but produces the most authoritative answers and creates a paper trail that legitimizes our interest.
+
+### Research Data Collection Template
+
+For each state, gather the following through the layers above (in order of preference):
+
+```
+State: [XX]
+Source: [aggregator/web search/VPN spot-check/SOS contact]
+
+Filing Portal:
+  - Name:
+  - URL:
+  - Electronic filing available: [yes/no]
+  - API/bulk filing program: [yes/no/unknown]
+
+Fees:
+  - Standard filing fee: $
+  - Expedited fee: $
+  - Name reservation fee: $
+
+Processing:
+  - Standard processing time:
+  - Expedited processing time:
+
+Requirements:
+  - Required fields on articles of organization:
+  - Registered agent required: [yes/no]
+  - Publication requirement: [yes/no]
+  - Notarization required: [yes/no]
+  - Organizer restrictions:
+
+Anti-Bot Observations (if spot-checked):
+  - CAPTCHA present: [yes/no/type]
+  - Login required to file: [yes/no]
+  - Rate limiting observed: [yes/no]
+  - ToS mentions automated access: [yes/no]
+
+Notes:
+```
+
+### Research Phase Timeline with IP Protection
+
+```
+Days 1-3:   Layer 1 — Aggregator scrape (Northwest, Nolo, Incfile guides)
+            → Fills ~80% of STATE_MATRIX for all 51 jurisdictions
+Days 4-5:   Layer 2 — AI web search for gaps
+            → Fills to ~95% coverage
+Days 6-10:  Layer 4 — Email/call SOS offices for API/bulk filer questions
+            → Authoritative answers on filing channels
+Days 11-14: Layer 3 — VPN spot-checks for remaining gaps (CAPTCHA types, portal UX)
+            → Max 2-3 state portals per day, completes PORTAL_DEFENSES data
+```
+
+---
+
 ## Planning Steps
 
 ### 1. State Filing Research (per-state audit)
