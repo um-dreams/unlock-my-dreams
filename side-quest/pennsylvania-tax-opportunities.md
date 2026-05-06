@@ -165,6 +165,131 @@ If you're investing in or starting a qualifying PA tech company, the state gives
 
 ---
 
+## Non-Agricultural Opportunities
+
+---
+
+## 9. PA R&D Tax Credit
+
+PA offers its own R&D credit that stacks with the federal one.
+
+| Detail | Value |
+|--------|-------|
+| Credit | **10% of increase in R&D spending** over base amount (20% for small businesses under 250 employees) |
+| Cap | $11M total program cap (competitive — applied for via DCED) |
+| Transferable | Yes — can sell or assign unused credits |
+| Carry forward | 15 years |
+
+**The play**: Software development, algorithm design, product engineering, and experimental development all qualify. A SaaS company spending $300K/year on qualifying R&D (developer salaries, cloud R&D infrastructure, testing) could claim $30K–60K in PA credits. Since credits are transferable, even pre-revenue startups can sell them for cash.
+
+The **20% rate for small businesses** (under 250 employees) is double the standard rate — specifically designed for startups.
+
+---
+
+## 10. PA Sales Tax Exemptions for Digital Businesses
+
+PA does **not charge sales tax** on many categories that other states tax heavily:
+
+| Exempt from PA Sales Tax | Notes |
+|--------------------------|-------|
+| **SaaS / cloud software** | PA does not tax cloud-based software services (as of current law) |
+| **Custom software development** | Custom-coded software is exempt; only canned/prewritten software is taxable |
+| **Most professional services** | Consulting, design, marketing services are not subject to sales tax |
+| **Internet access** | Federal Internet Tax Freedom Act + PA conformity |
+| **Digital downloads** | E-books, digital music, streaming — currently exempt in PA |
+| **Clothing** | All clothing is sales-tax-free in PA |
+| **Most food** | Groceries are exempt (prepared food is taxable) |
+
+**The play**: If you're running a SaaS business from PA, your product is likely sales-tax-exempt. Your employees' clothing purchases are tax-free. Your grocery bills are tax-free. PA's 6% sales tax simply doesn't apply to most of what a digital business earns or spends. Compare this to states like Texas, New York, or Connecticut that tax SaaS.
+
+---
+
+## 11. Opportunity Zones (Federal + PA Alignment)
+
+PA has **300+ designated Opportunity Zones** — one of the highest counts in the country.
+
+| Benefit | Details |
+|---------|---------|
+| Capital gains deferral | Defer gains invested in OZ fund until 2026 |
+| Step-up in basis | 10% step-up after 5 years, 15% after 7 years |
+| Exclusion on OZ gains | Gains on the OZ investment itself are **tax-free** if held 10+ years |
+
+**The play**: PA's OZ zones overlap with many KOZ zones. Invest capital gains from a prior exit, stock sale, or crypto into a Qualified Opportunity Zone Fund operating in PA. Stack with KOZ for zero state/local taxes AND tax-free appreciation on the investment.
+
+PA OZ locations include zones in Philadelphia, Pittsburgh, Harrisburg, Allentown, Reading, Scranton, Erie, Lancaster, and many rural communities.
+
+---
+
+## 12. Computer Data Center Tax Exemption
+
+Under PA's data center incentive program, qualifying data center equipment and operations receive:
+
+| Exemption | Details |
+|-----------|---------|
+| Sales tax exemption | On servers, cooling equipment, networking gear, UPS systems |
+| Threshold | $25M+ investment in the facility |
+| Duration | Up to 25 years |
+
+**The play**: If you're scaling infrastructure to the point of running your own servers or co-locating, PA offers sales tax exemption on all that hardware. More relevant for later-stage growth, but worth knowing — many companies locate data centers in PA specifically for this.
+
+---
+
+## 13. PA New Jobs Tax Credit
+
+A **$1,000 per new job** tax credit for businesses creating new full-time positions in PA.
+
+| Detail | Value |
+|--------|-------|
+| Credit | $1,000 per new full-time job |
+| Duration | Credit available for the tax year the job is created |
+| Requirement | Net new job (not replacement); must pay at least the prevailing minimum wage |
+| Stacks with | KOZ, KIZ, and other programs |
+
+**The play**: Every full-time hire you make in PA gets you a $1,000 credit. Simple, no complex application — just claim on your return. If you hire 10 people in a year, that's $10,000 off your tax bill.
+
+---
+
+## 14. Ben Franklin Technology Partners (Grants + Investment)
+
+Not a tax credit, but effectively free/cheap capital for tech startups.
+
+| Detail | Value |
+|--------|-------|
+| Investment | $50K–500K in early-stage tech companies |
+| Structure | Loans, equity, or royalty-based — varies by region |
+| Regions | 4 partners: Southeastern PA, Northeastern PA, Central PA, Southwestern PA |
+| Eligibility | PA-based tech company with commercial potential |
+
+**The play**: BFTP is quasi-government venture capital at founder-friendly terms. They've invested over $200M+ in PA startups. If you're building a tech product in PA, apply before seeking private VC — the terms are typically much better, and BFTP investment validates you for future fundraising.
+
+---
+
+## 15. PA Work Opportunity Tax Credit (WOTC) Enhancement
+
+PA enhances the federal WOTC for hiring from targeted groups:
+
+| Eligible Group | Federal Credit | PA Enhancement |
+|----------------|---------------|----------------|
+| Veterans | Up to $9,600 | Additional state credit |
+| SNAP recipients | Up to $2,400 | Additional state credit |
+| Ex-felons | Up to $2,400 | Additional state credit |
+| Summer youth employees | Up to $1,200 | Additional state credit |
+| Long-term unemployed | Up to $5,600 | Additional state credit |
+
+**The play**: If you're hiring in areas with KOZ zones (which tend to be economically distressed), many of your candidates may qualify for WOTC. Stack with the $1,000/job PA New Jobs Credit and KOZ for a triple benefit: no taxes on the business income + $1,000/job + $2,400–9,600/job in WOTC credits.
+
+---
+
+## 16. Single Sales Factor Apportionment
+
+PA uses **single sales factor apportionment** for corporate income tax. This means your PA tax is based only on the percentage of your **sales** made to PA customers — not where your employees or property are.
+
+**The play**: If you're a SaaS company with employees and offices in PA but selling nationally/globally, only the fraction of revenue from PA customers counts toward your PA corporate tax base. A company with 100 employees in PA but only 5% of customers in PA pays corporate income tax on only 5% of its income. This is a massive structural advantage for companies that build in PA but sell everywhere.
+
+Combined with KOZ (zero tax on all income), this becomes even more powerful as a fallback if KOZ expires.
+
+---
+
 ## Stacking Strategies
 
 ### The "Full Stack" (Maximum Tax Elimination)
@@ -186,6 +311,33 @@ If you're investing in or starting a qualifying PA tech company, the state gives
    → Federal 30% ITC + PA Alternative Energy Investment Act credits
 
 Result: Near-zero effective tax rate for a decade+
+```
+
+### The "Digital SaaS" Stack (Best for UMD-Type Businesses)
+
+```
+1. Register LLC in a Keystone Opportunity Zone
+   → $0 state income tax, $0 local taxes on all business income
+
+2. SaaS revenue is already PA sales-tax-exempt
+   → $0 sales tax on subscriptions (PA doesn't tax cloud software)
+
+3. Claim PA R&D credits on all software development
+   → 20% credit for small businesses (under 250 employees)
+   → Credits are transferable — sell for cash if pre-revenue
+
+4. Near a PA university? Apply for KIZ credits
+   → Up to $100K/year in credits as revenue grows
+
+5. Every new hire earns $1,000 PA New Jobs Credit
+   → Plus potential WOTC credits ($2,400–9,600/job) in KOZ areas
+
+6. Single sales factor apportionment on any non-KOZ income
+   → Only PA customer revenue counts toward PA tax base
+
+Result: $0 state/local taxes (KOZ), $0 sales tax on SaaS revenue,
+        20% back on R&D costs, $1K–10K+ per hire in credits,
+        minimal tax exposure on out-of-state sales
 ```
 
 ### The Mushroom + KOZ Hybrid
@@ -222,4 +374,9 @@ Result: Premium agricultural product + near-zero tax on profits
 | REAP | Annual funding cap; competitive application | Apply early; work with county conservation district |
 | NIZ | Limited to Allentown; zone has specific requirements | Verify current zone boundaries and eligibility |
 | Film credits | Minimum $60K spend; must complete production in PA | Only pursue if you have legitimate production needs |
+| R&D credit | $11M program cap — competitive application via DCED | Apply early; document all qualifying activities meticulously |
+| SaaS sales tax exemption | PA could change its position on taxing SaaS (other states have) | Monitor PA DOR guidance; structure as custom software where possible |
+| Single sales factor | Benefits shrink if most customers are in PA | More valuable as you scale nationally |
+| New Jobs Credit | Only for net new jobs; must be full-time | Don't count contractors or replacements |
+| Ben Franklin | Not a grant — usually structured as loan or royalty | Understand repayment terms before accepting |
 | Stacking multiple programs | IRS and PA DOR scrutiny increases with aggressive stacking | Document everything; get professional tax advice; maintain genuine business purpose |
