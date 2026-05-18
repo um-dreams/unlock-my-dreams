@@ -17,7 +17,7 @@ Automated filing of **LLCs** and **Sole Proprietorships** in Pennsylvania throug
 | **Form** | Certificate of Organization (DSCB:15-8821) |
 | **Filing Fee** | $125 (online) |
 | **Turnaround** | Same day to 3 business days (online) |
-| **Annual Report** | Decennial report every 10 years (no annual report requirement) |
+| **Annual Report** | $7/year, due Sept 30 (replaced decennial report in 2025 via Act 122 of 2022) |
 
 #### Required Data Points
 
@@ -28,7 +28,7 @@ Automated filing of **LLCs** and **Sole Proprietorships** in Pennsylvania throug
 - Organizer name and signature
 - Optional: specific purpose clause (default is "any lawful purpose")
 
-> **Key advantage over MA**: PA has a much lower filing fee ($125 vs. $500) and no annual report — only a decennial (every 10 years) report. This makes PA an attractive filing state.
+> **Key advantage over MA**: PA has a much lower filing fee ($125 vs. $500) and a minimal annual report ($7/year vs. $500/year in MA). This makes PA an attractive filing state.
 
 ### 1.2 Sole Proprietorship — Fictitious Name Registration
 
@@ -191,10 +191,10 @@ PA uses a **registered office** concept (not "registered agent"):
 | Obtain EIN from IRS | After filing approved | Free |
 | PA Revenue Registration | Before conducting business | Free (via PA-100 form) |
 | Local Business Privilege License | Varies by municipality | $25–300 |
-| Decennial Report | Every 10 years from formation | $70 |
+| Annual Report | Due by Sept 30 each year (starting year after formation) | $7 |
 | UCC Filing (if applicable) | As needed | $50+ |
 
-> **Note**: PA does NOT require annual reports for LLCs — only a decennial report every 10 years. This is a selling point for users choosing PA.
+> **Note**: As of 2025, PA requires an **annual report** ($7/year, due Sept 30) replacing the old decennial report. No penalties for missed 2025–2026 reports; enforcement (administrative dissolution after 6-month grace period) begins with 2027 reports. Reinstatement costs $35 + $15/missed year.
 
 ---
 
@@ -245,15 +245,15 @@ PA uses a **registered office** concept (not "registered agent"):
 | Factor | Pennsylvania | Massachusetts |
 |--------|-------------|---------------|
 | LLC Filing Fee | $125 | $500 |
-| Annual Report | None (decennial every 10 yrs, $70) | Annual, $500 |
+| Annual Report | Annual, $7 (replaced decennial in 2025) | Annual, $500 |
 | Sole Prop Filing | State-level ($70) | Municipal-level ($25-65, fragmented) |
 | Processing Time | Same day – 3 days | 1–2 days (online) |
 | Automation Friendly | Yes | No (bot detection) |
 | Tax Climate | 8.99% corp flat tax | 8% corp excise tax |
 | Total Year 1 Cost | ~$125 | ~$1,000 |
-| Total Year 2+ Cost | $0 (until decennial) | $500/year |
+| Total Year 2+ Cost | $7/year (annual report) | $500/year |
 
-> UMD should surface this comparison to users who might be flexible on state — PA is dramatically cheaper for LLC formation and ongoing maintenance.
+> UMD should surface this comparison to users who might be flexible on state — PA is dramatically cheaper for LLC formation and ongoing maintenance ($7/year vs. $500/year).
 
 ---
 
