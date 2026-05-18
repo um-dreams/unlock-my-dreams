@@ -41,6 +41,22 @@ feat/* → dev → staging → main (production)
 - Feature PRs target `dev`.
 - Promotion PRs: `dev → staging`, `staging → main`.
 
+## LLC Research Skills
+
+Custom slash commands for researching state LLC requirements. All follow the IP protection strategy (never hit state portals directly).
+
+| Command | Usage | Description |
+|---------|-------|-------------|
+| `/llc-check-state` | `/llc-check-state Texas` | Research and document LLC requirements for one state |
+| `/llc-check-batch` | `/llc-check-batch tier1` | Batch research: `tier1`, `tier2`, `all`, `remaining`, or `CA,NY,TX` |
+| `/llc-verify-state` | `/llc-verify-state FL` | Verify and refresh existing state data. Use `stale` for all outdated entries |
+| `/llc-compare-states` | `/llc-compare-states DE,WY,NV` | Compare formation requirements across states |
+
+State data lives in `specs/llc-states/{STATE_CODE}.md`. Summary index at `specs/llc-states/STATE_MATRIX.md`.
+
 ## Key Specs
 
 - `specs/BUSINESS_PLAN.md` — Full business plan with pricing, MVP timeline, competitive analysis
+- `specs/LLC_REGISTRATION_PLAN.md` — Architecture and anti-blocking strategy
+- `specs/LLC_REGISTRATION_PLANNING_ROADMAP.md` — Full planning roadmap with IP protection strategy
+- `specs/llc-states/STATE_MATRIX.md` — Master index of all researched states
